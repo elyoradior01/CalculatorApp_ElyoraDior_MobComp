@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04CA36992AC7F48F003EBB38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA36982AC7F48F003EBB38 /* AppDelegate.swift */; };
+		04CA369B2AC7F48F003EBB38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA369A2AC7F48F003EBB38 /* SceneDelegate.swift */; };
+		04CA369D2AC7F48F003EBB38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA369C2AC7F48F003EBB38 /* ViewController.swift */; };
+		04CA36A02AC7F48F003EBB38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CA369E2AC7F48F003EBB38 /* Main.storyboard */; };
+		04CA36A22AC7F491003EBB38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CA36A12AC7F491003EBB38 /* Assets.xcassets */; };
+		04CA36A52AC7F491003EBB38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CA36A32AC7F491003EBB38 /* LaunchScreen.storyboard */; };
+		04CA36B02AC7F491003EBB38 /* MobComp_Calculator_ElyoraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA36AF2AC7F491003EBB38 /* MobComp_Calculator_ElyoraTests.swift */; };
+		04CA36BA2AC7F491003EBB38 /* MobComp_Calculator_ElyoraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA36B92AC7F491003EBB38 /* MobComp_Calculator_ElyoraUITests.swift */; };
+		04CA36BC2AC7F491003EBB38 /* MobComp_Calculator_ElyoraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA36BB2AC7F491003EBB38 /* MobComp_Calculator_ElyoraUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04CA36AC2AC7F491003EBB38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CA368D2AC7F48F003EBB38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04CA36942AC7F48F003EBB38;
+			remoteInfo = MobComp_Calculator_Elyora;
+		};
+		04CA36B62AC7F491003EBB38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CA368D2AC7F48F003EBB38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04CA36942AC7F48F003EBB38;
+			remoteInfo = MobComp_Calculator_Elyora;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04CA36952AC7F48F003EBB38 /* MobComp_Calculator_Elyora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobComp_Calculator_Elyora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CA36982AC7F48F003EBB38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04CA369A2AC7F48F003EBB38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04CA369C2AC7F48F003EBB38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04CA369F2AC7F48F003EBB38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04CA36A12AC7F491003EBB38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04CA36A42AC7F491003EBB38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04CA36A62AC7F491003EBB38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CA36AB2AC7F491003EBB38 /* MobComp_Calculator_ElyoraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobComp_Calculator_ElyoraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CA36AF2AC7F491003EBB38 /* MobComp_Calculator_ElyoraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobComp_Calculator_ElyoraTests.swift; sourceTree = "<group>"; };
+		04CA36B52AC7F491003EBB38 /* MobComp_Calculator_ElyoraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobComp_Calculator_ElyoraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CA36B92AC7F491003EBB38 /* MobComp_Calculator_ElyoraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobComp_Calculator_ElyoraUITests.swift; sourceTree = "<group>"; };
+		04CA36BB2AC7F491003EBB38 /* MobComp_Calculator_ElyoraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobComp_Calculator_ElyoraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04CA36922AC7F48F003EBB38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CA36A82AC7F491003EBB38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CA36B22AC7F491003EBB38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04CA368C2AC7F48F003EBB38 = {
+			isa = PBXGroup;
+			children = (
+				04CA36972AC7F48F003EBB38 /* MobComp_Calculator_Elyora */,
+				04CA36AE2AC7F491003EBB38 /* MobComp_Calculator_ElyoraTests */,
+				04CA36B82AC7F491003EBB38 /* MobComp_Calculator_ElyoraUITests */,
+				04CA36962AC7F48F003EBB38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04CA36962AC7F48F003EBB38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04CA36952AC7F48F003EBB38 /* MobComp_Calculator_Elyora.app */,
+				04CA36AB2AC7F491003EBB38 /* MobComp_Calculator_ElyoraTests.xctest */,
+				04CA36B52AC7F491003EBB38 /* MobComp_Calculator_ElyoraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04CA36972AC7F48F003EBB38 /* MobComp_Calculator_Elyora */ = {
+			isa = PBXGroup;
+			children = (
+				04CA36982AC7F48F003EBB38 /* AppDelegate.swift */,
+				04CA369A2AC7F48F003EBB38 /* SceneDelegate.swift */,
+				04CA369C2AC7F48F003EBB38 /* ViewController.swift */,
+				04CA369E2AC7F48F003EBB38 /* Main.storyboard */,
+				04CA36A12AC7F491003EBB38 /* Assets.xcassets */,
+				04CA36A32AC7F491003EBB38 /* LaunchScreen.storyboard */,
+				04CA36A62AC7F491003EBB38 /* Info.plist */,
+			);
+			path = MobComp_Calculator_Elyora;
+			sourceTree = "<group>";
+		};
+		04CA36AE2AC7F491003EBB38 /* MobComp_Calculator_ElyoraTests */ = {
+			isa = PBXGroup;
+			children = (
+				04CA36AF2AC7F491003EBB38 /* MobComp_Calculator_ElyoraTests.swift */,
+			);
+			path = MobComp_Calculator_ElyoraTests;
+			sourceTree = "<group>";
+		};
+		04CA36B82AC7F491003EBB38 /* MobComp_Calculator_ElyoraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04CA36B92AC7F491003EBB38 /* MobComp_Calculator_ElyoraUITests.swift */,
+				04CA36BB2AC7F491003EBB38 /* MobComp_Calculator_ElyoraUITestsLaunchTests.swift */,
+			);
+			path = MobComp_Calculator_ElyoraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04CA36942AC7F48F003EBB38 /* MobComp_Calculator_Elyora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CA36BF2AC7F491003EBB38 /* Build configuration list for PBXNativeTarget "MobComp_Calculator_Elyora" */;
+			buildPhases = (
+				04CA36912AC7F48F003EBB38 /* Sources */,
+				04CA36922AC7F48F003EBB38 /* Frameworks */,
+				04CA36932AC7F48F003EBB38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobComp_Calculator_Elyora;
+			productName = MobComp_Calculator_Elyora;
+			productReference = 04CA36952AC7F48F003EBB38 /* MobComp_Calculator_Elyora.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04CA36AA2AC7F491003EBB38 /* MobComp_Calculator_ElyoraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CA36C22AC7F491003EBB38 /* Build configuration list for PBXNativeTarget "MobComp_Calculator_ElyoraTests" */;
+			buildPhases = (
+				04CA36A72AC7F491003EBB38 /* Sources */,
+				04CA36A82AC7F491003EBB38 /* Frameworks */,
+				04CA36A92AC7F491003EBB38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04CA36AD2AC7F491003EBB38 /* PBXTargetDependency */,
+			);
+			name = MobComp_Calculator_ElyoraTests;
+			productName = MobComp_Calculator_ElyoraTests;
+			productReference = 04CA36AB2AC7F491003EBB38 /* MobComp_Calculator_ElyoraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04CA36B42AC7F491003EBB38 /* MobComp_Calculator_ElyoraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CA36C52AC7F491003EBB38 /* Build configuration list for PBXNativeTarget "MobComp_Calculator_ElyoraUITests" */;
+			buildPhases = (
+				04CA36B12AC7F491003EBB38 /* Sources */,
+				04CA36B22AC7F491003EBB38 /* Frameworks */,
+				04CA36B32AC7F491003EBB38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04CA36B72AC7F491003EBB38 /* PBXTargetDependency */,
+			);
+			name = MobComp_Calculator_ElyoraUITests;
+			productName = MobComp_Calculator_ElyoraUITests;
+			productReference = 04CA36B52AC7F491003EBB38 /* MobComp_Calculator_ElyoraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04CA368D2AC7F48F003EBB38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					04CA36942AC7F48F003EBB38 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					04CA36AA2AC7F491003EBB38 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 04CA36942AC7F48F003EBB38;
+					};
+					04CA36B42AC7F491003EBB38 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 04CA36942AC7F48F003EBB38;
+					};
+				};
+			};
+			buildConfigurationList = 04CA36902AC7F48F003EBB38 /* Build configuration list for PBXProject "MobComp_Calculator_Elyora" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04CA368C2AC7F48F003EBB38;
+			productRefGroup = 04CA36962AC7F48F003EBB38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04CA36942AC7F48F003EBB38 /* MobComp_Calculator_Elyora */,
+				04CA36AA2AC7F491003EBB38 /* MobComp_Calculator_ElyoraTests */,
+				04CA36B42AC7F491003EBB38 /* MobComp_Calculator_ElyoraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04CA36932AC7F48F003EBB38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CA36A52AC7F491003EBB38 /* LaunchScreen.storyboard in Resources */,
+				04CA36A22AC7F491003EBB38 /* Assets.xcassets in Resources */,
+				04CA36A02AC7F48F003EBB38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CA36A92AC7F491003EBB38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CA36B32AC7F491003EBB38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04CA36912AC7F48F003EBB38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CA369D2AC7F48F003EBB38 /* ViewController.swift in Sources */,
+				04CA36992AC7F48F003EBB38 /* AppDelegate.swift in Sources */,
+				04CA369B2AC7F48F003EBB38 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CA36A72AC7F491003EBB38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CA36B02AC7F491003EBB38 /* MobComp_Calculator_ElyoraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CA36B12AC7F491003EBB38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CA36BC2AC7F491003EBB38 /* MobComp_Calculator_ElyoraUITestsLaunchTests.swift in Sources */,
+				04CA36BA2AC7F491003EBB38 /* MobComp_Calculator_ElyoraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04CA36AD2AC7F491003EBB38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04CA36942AC7F48F003EBB38 /* MobComp_Calculator_Elyora */;
+			targetProxy = 04CA36AC2AC7F491003EBB38 /* PBXContainerItemProxy */;
+		};
+		04CA36B72AC7F491003EBB38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04CA36942AC7F48F003EBB38 /* MobComp_Calculator_Elyora */;
+			targetProxy = 04CA36B62AC7F491003EBB38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04CA369E2AC7F48F003EBB38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CA369F2AC7F48F003EBB38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04CA36A32AC7F491003EBB38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CA36A42AC7F491003EBB38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04CA36BD2AC7F491003EBB38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04CA36BE2AC7F491003EBB38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04CA36C02AC7F491003EBB38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MobComp_Calculator_Elyora/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Elyora.MobComp-Calculator-Elyora";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04CA36C12AC7F491003EBB38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MobComp_Calculator_Elyora/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Elyora.MobComp-Calculator-Elyora";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04CA36C32AC7F491003EBB38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Elyora.MobComp-Calculator-ElyoraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobComp_Calculator_Elyora.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MobComp_Calculator_Elyora";
+			};
+			name = Debug;
+		};
+		04CA36C42AC7F491003EBB38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Elyora.MobComp-Calculator-ElyoraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobComp_Calculator_Elyora.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MobComp_Calculator_Elyora";
+			};
+			name = Release;
+		};
+		04CA36C62AC7F491003EBB38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Elyora.MobComp-Calculator-ElyoraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobComp_Calculator_Elyora;
+			};
+			name = Debug;
+		};
+		04CA36C72AC7F491003EBB38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Elyora.MobComp-Calculator-ElyoraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobComp_Calculator_Elyora;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04CA36902AC7F48F003EBB38 /* Build configuration list for PBXProject "MobComp_Calculator_Elyora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CA36BD2AC7F491003EBB38 /* Debug */,
+				04CA36BE2AC7F491003EBB38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CA36BF2AC7F491003EBB38 /* Build configuration list for PBXNativeTarget "MobComp_Calculator_Elyora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CA36C02AC7F491003EBB38 /* Debug */,
+				04CA36C12AC7F491003EBB38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CA36C22AC7F491003EBB38 /* Build configuration list for PBXNativeTarget "MobComp_Calculator_ElyoraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CA36C32AC7F491003EBB38 /* Debug */,
+				04CA36C42AC7F491003EBB38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CA36C52AC7F491003EBB38 /* Build configuration list for PBXNativeTarget "MobComp_Calculator_ElyoraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CA36C62AC7F491003EBB38 /* Debug */,
+				04CA36C72AC7F491003EBB38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04CA368D2AC7F48F003EBB38 /* Project object */;
+}
